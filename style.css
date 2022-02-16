@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px 100px 0px 100px;
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, hsl(231, 73%, 22%), #B7CDD4);;
+}
+
+
+li{
+    list-style: none;
+    padding-right: 10px;
+}
+h1{
+    padding-bottom: 10px;
+}
+
+input{
+    padding:3px 150px 3px 0px;
+}
+i{
+    padding:5px 
+}
+
