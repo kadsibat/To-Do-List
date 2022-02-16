@@ -27,6 +27,7 @@ let list=document.querySelector("ul");
 
     let close = document.createElement("close")
     close.innerHTML = '<i class="fa-solid fa-xmark"></i>'
+    close.setAttribute("class","close")
     li.appendChild(close);
 
     close.addEventListener("click",()=>{
